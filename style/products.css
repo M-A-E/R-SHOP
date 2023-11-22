@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.navbar {
+  height: 80px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.product {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #9a102e;
+  margin: 20px 20px 20px 30px;
+}
+
+.container-logo {
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 84px;
+  height: 75px;
+  margin-left: 70px;
+}
+
+.container-profile {
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  left: 1260px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6px;
+}
+
+.products {
+  columns: 1;
+  column-width: 241px;
+}
+
+.row {
+  justify-content: center;
+}
+
+.container-card {
+  padding: 0;
+  width: 241px;
+  height: 410px;
+  margin: 15px;
+}
+
+.card {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  white-space: nowrap;
+  background-color: #e2f6ca;
+  color: #9a102e;
+  width: 241px;
+  height: 410px;
+  cursor: pointer;
+  border-color: white;
+  border-radius: 0px;
+  padding: 0;
+}
+
+.thumbnail {
+  width: 239px;
+  height: 272px;
+  text-align: center;
+}
+
+.name {
+  width: 95px;
+  height: 17px;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.btn {
+  height: 80px;
+  margin-right: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-item {
+    text-align: left;
+    justify-self: center;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: capitalize;
+  }
+
+.dropdown-profile {
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+}
+
+.dropdown-list-product {
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+}
+
+.dropdown-logout {
+  width: 28px;
+  height: 28px;
+  margin: 10px;
+}
